@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <!-- use GET, not POST -->
+    <form method="GET">
+        First Name: <input type="text" placeholder="Jane" name="firstname" required > <br> <br>
+        Last  Name: <input type="text" placeholder="Doe" name="lastname" required > <br> <br>
+        Email: <input type="email" placeholder="Janedoe@outlook.com" name="email" required > <br> <br>
+        Password: <input type="password" minlength="5" placeholder="Password" name="password" required > <br> <br>
+        Birth Date: <input type="date" name="birthday"> <br> <br>
+        Gender: 
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Other">Other 
+        <br> <br>
+        Pets: <input type="checkbox"  name="dog">Dog <input type="checkbox" name="cat">Cat <input type="checkbox" name="other">Other <br> <br>
+        Cars: 
+        <select name="Car">
+            <option value="Toyota">Toyota</option>
+            <option value="Honda">Honda</option>
+            <option value="Ford">Ford</option>
+            <option value="Chevrolet">Chevrolet</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Kia">Kia</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Volkswagen">Volkswagen</option>
+            <option value="Mazda">Mazda</option>
+            <option value="Subaru">Subaru</option>
+            <option value="Lexus">Lexus</option>
+            <option value="Tesla">Tesla</option>
+            <option value="Porsche">Porsche</option>
+            <option value="Mitsubishi">Mitsubishi</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Other">Other</option>
+        </select> <br> <br>
+        <input type="submit" value="Register!">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
